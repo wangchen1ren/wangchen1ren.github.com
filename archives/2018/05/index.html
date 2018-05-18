@@ -29,69 +29,44 @@
 	</header>
 
 	<main>
+		<h1>Archive</h1>
+
+
+
+
+
+<ul class="archive">
+	
+	
+		<li class="archive__year archive__expendable ">
+			<span>2018</span>
+			<ul>
+				
+					<li class="archive__month archive__expendable">
+						<span>May</span>
+						<ul>
+							
+								<li class="archive__entry"><a href="/2018/05/18/一个域名-1p-ai/">一个域名 1p.ai</a></li>
+							
+						</ul>
+					</li>
+
+				
+			</ul>
+		</li>
 		
-
-
-
-	<article>
 	
-		<h1><a href="/2018/05/18/一个域名-1p-ai/">一个域名 1p.ai</a></h1>
-	
-	<div class="article__infos">
-		<span class="article__date">2018-05-18</span><br />
-		
-		
-	</div>
+</ul>
 
-	
-
-	
-		<p>找到一个看起来还比较舒服的域名 1p.ai</p>
-<p>有舒服的域名，感觉更有动力开始整点什么了，果然好东西是让人心情愉悦</p>
-
-	
-
-	
-
-</article>
-
-
-
-
-	<article>
-	
-		<h1><a href="/2017/12/20/First-Blood/">First Blood</a></h1>
-	
-	<div class="article__infos">
-		<span class="article__date">2017-12-20</span><br />
-		
-		
-			<span class="article__tags">
-			  	<a class="article__tag-link" href="/tags/随笔/">随笔</a>
-			</span>
-		
-	</div>
-
-	
-
-	
-		<h1 id="开始随便写写"><a href="#开始随便写写" class="headerlink" title="开始随便写写"></a>开始随便写写</h1><p>其实说起来并没有什么写东西的习惯，只是想着自己也算有些内容，总憋在肚子里实在也是浪费，不如多写点出来，如果对别人有帮助就是最好不过了。</p>
-<p>知识付费时代嘛，回头我也整个大V网红什么的玩玩~</p>
-<p>Ps. 本blog参考 <a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="noopener">手把手教你使用Hexo + Github Pages搭建个人独立博客</a> 搭建</p>
-
-	
-
-	
-
-</article>
-
-
-
-
-
-
-	<span class="different-posts">📕 end of posts 📕</span>
-
+<script>
+	const expandables = document.querySelectorAll('.archive__expendable')
+	for(let i = 0; i < expandables.length; i++) {
+		expandables[i].addEventListener('click', (e) => {
+			e.stopPropagation()
+			expandables[i].classList.toggle('archive__expendable_collapsed')
+		})
+	}
+</script>
 
 	</main>
 
