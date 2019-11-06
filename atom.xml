@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://1p.ai/"/>
-  <updated>2019-10-17T11:04:03.589Z</updated>
+  <updated>2019-11-06T04:14:24.487Z</updated>
   <id>https://1p.ai/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《构建之法》读书笔记</title>
+    <link href="https://1p.ai/2019/11/05/%E3%80%8A%E6%9E%84%E5%BB%BA%E4%B9%8B%E6%B3%95%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    <id>https://1p.ai/2019/11/05/《构建之法》读书笔记/</id>
+    <published>2019-11-05T08:22:58.000Z</published>
+    <updated>2019-11-06T04:14:24.487Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="1-软件-程序-软件工程"><a href="#1-软件-程序-软件工程" class="headerlink" title="1. 软件 = 程序 + 软件工程"></a>1. 软件 = 程序 + 软件工程</h1><ol><li>工程一般都是复杂的、易变的</li><li>软件工程就是管理复杂性、管理易变性，持续做好产品的方法</li><li>软件工程的目标：足够好<ol><li>足够好的用户体验</li><li>足够好的可靠性</li><li>足够好的质量</li><li>足够好的可维护性</li></ol></li></ol><h1 id="2-个人技术和流程"><a href="#2-个人技术和流程" class="headerlink" title="2. 个人技术和流程"></a>2. 个人技术和流程</h1><ol><li>TDD —— Google测试之道</li><li>个人开发流程 PSP(Personal Software Process)<ol><li>需求分析 + 测试占用 60% 时间</li></ol></li></ol><h1 id="3-软件工程师的成长"><a href="#3-软件工程师的成长" class="headerlink" title="3. 软件工程师的成长"></a>3. 软件工程师的成长</h1><ol><li>IC 的工作流程 (P44)</li><li>衡量工作量和质量<ol><li>项目有多大 Line of code</li><li>花了多少时间</li><li>质量如何</li><li>是否按时交付</li></ol></li><li>职业成长</li></ol><h1 id="4-两人合作"><a href="#4-两人合作" class="headerlink" title="4. 两人合作"></a>4. 两人合作</h1><ol><li>coding standard &amp; code review</li><li>影响力</li><li>如何给予反馈 —— 关键对话</li></ol><h1 id="5-团队和流程"><a href="#5-团队和流程" class="headerlink" title="5. 团队和流程"></a>5. 团队和流程</h1><ol><li>团队<ol><li>有一致的目标</li><li>各自分工，互相依赖，共同完成</li></ol></li><li>开发流程<ol><li>迭代</li></ol></li></ol><h1 id="6-敏捷流程"><a href="#6-敏捷流程" class="headerlink" title="6. 敏捷流程"></a>6. 敏捷流程</h1><ol><li>核心：小步快跑，快速迭代</li></ol><h1 id="7-MSF"><a href="#7-MSF" class="headerlink" title="7.MSF"></a>7.MSF</h1><h1 id="8-需求分析"><a href="#8-需求分析" class="headerlink" title="8. 需求分析"></a>8. 需求分析</h1><ol><li>如何收集需求</li><li>如何分析需求</li><li>确认需求<ol><li>四象限方法</li></ol></li><li>计划和估计</li></ol><h1 id="9-项目经理"><a href="#9-项目经理" class="headerlink" title="9. 项目经理"></a>9. 项目经理</h1><ol><li>职责：开发和测试之外的所有事</li><li>把所有事情当成项目来做</li></ol><h1 id="10-典型用户和场景"><a href="#10-典型用户和场景" class="headerlink" title="10. 典型用户和场景"></a>10. 典型用户和场景</h1><ol><li>典型用户 -&gt; 场景 -&gt; 任务</li><li>FDD<ol><li>总体设计</li><li>功能列表</li><li>开发计划</li><li>功能设计（详细设计）</li><li>功能实现</li></ol></li></ol><h1 id="11-软件设计与实现"><a href="#11-软件设计与实现" class="headerlink" title="11. 软件设计与实现"></a>11. 软件设计与实现</h1><ol><li>持续集成</li></ol><h1 id="12-用户体验"><a href="#12-用户体验" class="headerlink" title="12. 用户体验"></a>12. 用户体验</h1><ol><li>产品思维</li><li>从用户的角度考虑问题<ol><li>5W1H</li></ol></li><li>Dogfood</li><li>评价标准</li></ol><h1 id="13-软件测试"><a href="#13-软件测试" class="headerlink" title="13. 软件测试"></a>13. 软件测试</h1><ol><li>Google测试之道</li></ol><h1 id="14-质量保障"><a href="#14-质量保障" class="headerlink" title="14. 质量保障"></a>14. 质量保障</h1><ol><li>CMMI 3级</li><li>质量的本质：风控，风控都是有成本的</li><li>谁负责？TDD</li></ol><h1 id="15-稳定和发布阶段"><a href="#15-稳定和发布阶段" class="headerlink" title="15. 稳定和发布阶段"></a>15. 稳定和发布阶段</h1><ol><li>alpha -&gt; beta -&gt; 灰度小白鼠 -&gt; 推广</li><li>时间 &amp; 资源 &amp; 功能 的平衡，三者取其二</li><li>复盘</li></ol><h1 id="16-IT-行业的创新"><a href="#16-IT-行业的创新" class="headerlink" title="16. IT 行业的创新"></a>16. IT 行业的创新</h1><ol><li>从 0 到 1</li><li>创新者的窘境</li></ol><h1 id="17-人、绩效和职业道德"><a href="#17-人、绩效和职业道德" class="headerlink" title="17. 人、绩效和职业道德"></a>17. 人、绩效和职业道德</h1><ol><li>猪、鸡和鹦鹉</li><li>绩效：如何定义”产出”</li><li>职业道德</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;1-软件-程序-软件工程&quot;&gt;&lt;a href=&quot;#1-软件-程序-软件工程&quot; class=&quot;headerlink&quot; title=&quot;1. 软件 = 程序 + 软件工程&quot;&gt;&lt;/a&gt;1. 软件 = 程序 + 软件工程&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;工程一般都是复杂的、易变的&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="reading" scheme="https://1p.ai/tags/reading/"/>
+    
+  </entry>
   
   <entry>
     <title>《从 0 到 1》读书笔记</title>
